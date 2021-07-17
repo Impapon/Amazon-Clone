@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #080808;
+}
+
+.topnav a,
+img {
+    float: left;
+    display: block;
+    color: rgb(253, 251, 251);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+img {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    padding-left: 30px;
+}
+
+
+/* .location-top:hover {
+    border: 3px solid yellow;
+    margin: 3px;
+    padding: 5px;
+} */
+
+#location {
+    width: 20px;
+    height: 20px;
+}
+
+img:hover {
+    border: 3px solid yellow;
+    margin: 3px;
+    padding: 5px;
+}
+
+.topnav .search-container {
+    float: center;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+    background: #ccc;
+}
